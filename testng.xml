@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="ATB2xAPIAutomation">
+        <classes>
+            <class name="com.thetestingacademy.tests.fullcrud.GETRequestTest">
+                <methods>
+                    <include name="test_get"/>
+                    <include name="test_get2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
